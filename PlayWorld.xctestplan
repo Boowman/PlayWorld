@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "BF74A1EB-E31D-49EE-BE67-44B15DA5ACE7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PlayWorld.xcodeproj",
+      "identifier" : "1403089A2B557A0D003CCB11",
+      "name" : "PlayWorld"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PlayWorld.xcodeproj",
+        "identifier" : "140308AC2B557A0E003CCB11",
+        "name" : "PlayWorldTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PlayWorld.xcodeproj",
+        "identifier" : "140308B62B557A0F003CCB11",
+        "name" : "PlayWorldUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
